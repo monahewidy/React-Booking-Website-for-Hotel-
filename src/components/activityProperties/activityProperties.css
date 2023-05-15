@@ -1,0 +1,70 @@
+/* activityProperties.css file */
+
+.fp {
+    width: auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    flex-wrap: wrap;
+}
+
+.fpItem {
+    gap: 10px;
+    flex-direction: column;
+}
+
+.fpImg {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+
+}
+
+.fpName {
+    color: #333;
+    font-weight: bold;
+}
+
+.fpCity {
+    font-weight: 300;
+}
+
+.fpPrice {
+    font-weight: 500;
+}
+
+.fpRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fpRating>span {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .fp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .fp {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 15px;
+    }
+}
+

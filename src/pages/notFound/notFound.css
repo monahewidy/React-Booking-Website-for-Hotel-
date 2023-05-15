@@ -1,0 +1,42 @@
+/* notFound.css file in notFound folder in pages*/
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .not-found h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .not-found h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .not-found p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+  }
+  
+  .btn-home {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-home:hover {
+    background-color: #0056b3;
+  }

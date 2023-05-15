@@ -1,0 +1,33 @@
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-error {
+    background-color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 5px red;
+    padding: 20px;
+    border-radius: 4px;
+}
+.card-error:hover {
+    box-shadow: 0 5px 20px red;
+}
+
+
+.card-id {
+    background-color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 5px green;
+    padding: 20px;
+    border-radius: 4px;
+}
+.card-id:hover {
+    box-shadow: 0 5px 20px green;
+}
+
+/* .headerSearch{
+    display: none;
+} */

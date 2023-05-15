@@ -1,0 +1,56 @@
+.homeTitle {
+    width: auto;
+    font-size: 20px;
+}
+.myMainDiv{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.myDive{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s;
+    }
+    .myDive:hover {
+        box-shadow: 0 +10px +10px rgba(0, 0, 0, 0.2);
+    }
+.myDive1{
+    background-image: url("https://r-xx.bstatic.com/xdata/images/xphoto/714x300/184699273.jpeg?k=503e088a7d417c30217b5109dda404d2c2050001588cf7a45fca63e3363573de&o=");
+}
+.myDive2{
+    background-image: url("https://r-xx.bstatic.com/xdata/images/xphoto/714x300/204490944.jpeg?k=f1dbbec42645c0ed1dc25f1e0878ab449b461baf936dcd971ad8c63bf13d0dc6&o=");
+}
+.card-body{
+    height: 184px;
+}
+.card-body1{
+    height: 250px;
+    padding: 20px;
+}
+.myDive3{
+    background-image: url("https://cf.bstatic.com/xdata/images/city/600x600/644365.jpg?k=8ad39e2f63737e18f4a59e215d940d628838352c53e1069c8366893d9521d8e6&o=");
+}
+.myDive4{
+    background-image: url("https://cf.bstatic.com/xdata/images/city/600x600/644630.jpg?k=700ac1d32a3bab480b14db2cba3050abe5b5bce062911dc4f5b3fdc15d81f007&o=");
+}
+.myDive5{
+    background-image: url("https://cf.bstatic.com/xdata/images/city/600x600/644338.jpg?k=51ec9b834df182428a266d5084a944dca58573a3aad1a2b5993989d3438539fe&o=");
+}
+.myDive6{
+    background-image: url("https://r-xx.bstatic.com/xdata/images/city/170x136/691353.jpg?k=878cf98fab1232e95def135008bf96a8b3576a24c2aa0d9d6cb9ed828eefefc8&o=");
+}
+.myDive7{
+    background-image: url("https://cf.bstatic.com/xdata/images/city/600x600/654659.jpg?k=9c4ac59d35869485631346dc1ee16d28e82ec5f79654bf56b4b4eaeef3388299&o=");
+}
+.my-text {
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}

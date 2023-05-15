@@ -1,0 +1,49 @@
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+.featuredItem {
+    position: relative;
+    color: white;
+    border-radius: 50px 50px 50px 50px !important;
+    overflow: hidden;
+    height: 250px;
+    flex: 1
+}
+
+.featuredImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px !important;
+}
+
+.featuredTitles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .featured {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .featured {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 15px;
+    }
+}
